@@ -1,9 +1,8 @@
 def count(s):
-    freq={}
+    val = {}
     for i in s:
-        if i in freq:
-            freq[i]+=1
+        if i in val:
+            val[i] += 1
         else:
-            freq[i]=1
-    return freq         
-            
+            val[i] = 1
+    return val
